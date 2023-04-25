@@ -1,9 +1,20 @@
 using System;
 
-class Program
+using System.Collections.Generic;
+
+
+namespace Learning02
 {
-    static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello Learning02 World!");
+        static void Main(string[] args)
+        {  
+            Console.WriteLine("Hello Learning02 World!");
+            List <int> numList = new List<int>();
+            numList.Add(121);
+            numList.Add(2021);
+            numList.Remove(0);
+             
+        }
     }
 }
